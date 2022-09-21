@@ -13,5 +13,5 @@
 > go run consumer/consumer.go
 
 4. send a post request to the producer
-> curl -d '{"text":"hello world"}' -H "Content-Type: application/json" -X POST http://localhost:3000/api/v1/comments
+``` curl -d '{"text":"hello world"}' -H "Content-Type: application/json" -X POST http://localhost:3000/api/v1/comments```
 
